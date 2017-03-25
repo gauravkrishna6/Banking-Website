@@ -1,0 +1,45 @@
+<?php
+include 'login.php'; // Includes Login Script
+
+if(isset($_SESSION['login_user'])){
+header("location: profile.php");
+}
+
+?>
+
+
+<!DOCTYPE html>
+<html >
+<head>
+	
+	<title>Login page</title>
+	
+	<link rel="stylesheet" type="text/css" href="my_form_style.css">
+	
+	
+</head>
+
+<body>
+
+	<span class = 'heading'> PLEASE LOGIN... </span>
+
+	<div class="login-page">
+		<div class="form">
+		
+		
+			<form action="" method="post">
+				
+				<label>UserName :</label>
+				<input id="name" name="username" placeholder="username" type="text" required >
+				<label>Password :</label>
+				<input id="password" name="password" placeholder="**********" type="password">
+				<input name="submit" type="submit" value=" Login ">
+				
+				<span><?php //echo $error; ?></span>
+			</form>
+		
+		</div>
+	</div>
+</body>
+
+</html>
