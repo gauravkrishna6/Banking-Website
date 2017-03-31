@@ -1,0 +1,41 @@
+h1{
+	text-align: center;
+	color: red;
+}
+
+.container{
+	
+	border: 2px solid grey;
+	text-align: center;
+	margin: auto 12cm;
+	border-radius: 15px;
+	background-color: #0052cc;
+	box-shadow:10px 10px 16px rgba(0,0,0,0.7); 
+
+}
+
+#form{
+	padding-top:2cm;
+	padding-bottom: 2cm;
+}
+
+input{
+	height: 40px;
+}
+
+label{
+	display: inline-block;
+	width: 140px;
+	text-align: left;
+}
+
+.submit{
+	width: 4cm;
+	position: relative;
+	top: 50px;
+	left: 2cm;
+}
+
+button{
+	color: red;
+}
