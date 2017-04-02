@@ -25,4 +25,5 @@ while($data = mysqli_fetch_row($result))
     echo "</tr>";
 }
 echo "</table>";
+
 ?>

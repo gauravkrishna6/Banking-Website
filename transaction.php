@@ -1,6 +1,6 @@
 <?php 
 include 'session.php';
-$qry = "SELECT * FROM transactions WHERE cust_id ='$id_check' order by trans_date desc";
+$qry = "SELECT * FROM transaction WHERE cust_id ='$id_check' order by trans_date desc";
 $rw = mysqli_query($connection,$qry);
 
 ?>
@@ -41,15 +41,16 @@ if (mysqli_num_rows($rw) > 0) {
 	<tr>
 		<th>DATE</th>
 		<th>DESCRIPTION</th>
-		<th>AMOUNT</th>
-		<th>CREDIT / DEBIT</th>
+		<th>credit</th>
+		<th>debit</th>
+		<th>balance<th>
 		
 	</tr>';
     
     // output data of each row
     while($row = mysqli_fetch_assoc($rw)) {
-        echo "<tr><td>".$row['trans_date']."</td> <td>".$row['trans_detail']."</td> <td>".$row['amount']
-        ."</td> <td>".$row['trans_type']."</td><tr>";
+        echo "<tr><td>".$row['trans_date']."</td> <td>".$row['trans_detail']."</td> <td>".$row['credit']
+        ."</td> <td>".$row['debit']."</td><td>".$row['cur_bal']."</td><tr>";
     }
     echo '</table>';		//closing table tag
 } else {
