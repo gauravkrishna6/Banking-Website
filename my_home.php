@@ -1,7 +1,6 @@
 <?php
 include 'session.php';
 
-
 //echo $_SESSION['logged_id'];
 $acc_num = $cust_row['acc_num'];
 $balance = $cust_row['balance'];
@@ -44,7 +43,7 @@ $branch = $cust_row['branch'];
       			<ul id="nav-mobile" class="right hide-on-med-and-down">
         			<li><a href="sass.html" ><span id="nav_links">Profile</span></a></li>
         			<li><a href="logout.php"><span id="nav_links">Log Out</span></a></li>
-        			<li><a href="#"><span id="nav_links">contact Us</span></a></li>
+        			<li><a href="contact_us.php"><span id="nav_links">contact Us</span></a></li>
       			</ul>
 
     		</div>
@@ -73,7 +72,7 @@ $branch = $cust_row['branch'];
 
 					<a href="my_home.php" class="waves-effect waves-light btn red valign-wrapper" id="button"><span class="valign">My Home Page</span></a>
 
-					<a href="transaction.php" class="waves-effect waves-light btn  valign-wrapper" id="button"><span class="valign">Transaction History</span></a>
+					<a href="my_transactions.php" class="waves-effect waves-light btn  valign-wrapper" id="button"><span class="valign">Transaction History</span></a>
 					<a href="money_transfer.php" class="waves-effect waves-light btn  valign-wrapper" id="button"><span class="valign">Transfer Money</span></a>
 					
 					

@@ -1,7 +1,9 @@
 <?php 
 include 'session.php';
+
 $qry = "SELECT * FROM transaction WHERE cust_id ='$id_check' order by trans_date desc";
 $rw = mysqli_query($connection,$qry);
+
 
 ?>
 
@@ -62,6 +64,8 @@ if (mysqli_num_rows($rw) > 0) {
   ?>
 
 <a href="my_home.php">back to my home</a>
-  
+ 
 </body>
 </html>
+
+

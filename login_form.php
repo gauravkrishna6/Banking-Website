@@ -19,12 +19,10 @@ include 'login.php'; // Includes Login Script
   <meta charset="UTF-8">
   <title>Login Form</title>
   
-  
+  	<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900'>
+	<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/icon?family=Material+Icons'>
 
-  <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900'>
-<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/icon?family=Material+Icons'>
-
-      <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="./css/login.css">
 
   
 </head>
@@ -33,7 +31,7 @@ include 'login.php'; // Includes Login Script
 
 
   <form  action="" method="post" 	id="signin" >
-
+  	<a href="index.html"><i class="material-icons " id="cancel">cancel</i></a>
 	<div class="form-title">Sign in</div>
 	<div class="input-field">
 		<input type="text" name="username" id="email" autocomplete="off" required >

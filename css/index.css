@@ -1,7 +1,9 @@
-
+body{
+  
+}
 
 header{
-  color: black;
+  
     height: 7cm;
     width: 100%;
 
@@ -9,10 +11,10 @@ header{
 
 
 nav{
-    background: blue;
-    width: 90%;
+    background: #1a237e;
+    width: 100%;
     margin: auto auto;
-    border-radius: 10px;
+    
     
     
 }
@@ -24,7 +26,7 @@ nav{
   top:0;
   left:0;
   width: 100%;
-  background-color: green;
+  background-color: teal;
 
 }
 
@@ -88,7 +90,7 @@ font-family: 'Baloo Bhaina', cursive;
   border-radius: 60%;
   position: relative;
   left: 150px;
-  top: 80px;
+  top: 70px;
   opacity: 1;
 }
 
@@ -96,8 +98,9 @@ font-family: 'Baloo Bhaina', cursive;
   float: right;
   font-size: 50px;
   font-family: 'Great Vibes', cursive;
-  color: black;
+  color: #f57c00;
   position: relative;
-  top: 120px;
+  top: 105px;
   right: 160px;
+  font-weight: bold;
 }

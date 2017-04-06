@@ -81,16 +81,17 @@ body{
 
 #pin{
 	color: red;
-	margin-top: 2px;
-	-webkit-transform: rotate(45deg);
+	margin-top: -24px;
+	-webkit-transform: rotate(32deg);
 	position: relative;
-	left: 2cm;
+	left: 88px;
 	top: -15px;
 	-webkit-box-shadow: 0px 5px 10px -5px rgba(0,0,0,0.75);
 }
 
 #right-pane{
 	width: 100%;
+	min-height: 60px;
 	height: auto;
 	background-color:#eceff1;
 
@@ -117,33 +118,99 @@ table{
 
 }
 
+th{
+	text-align: center;
+	font-size: 25px;
+	color: #d84315;
+}
+
 tr{
-	height: 90px;
+	height: 30px;
+	text-align: center;
 
 }
 
 
 
-td:nth-child(1){
+td{
+	text-align: center;
 	font-size: 25px;
-	padding-left: 10px;
-	font-family: 'Ubuntu', sans-serif;
-
-}
-
-
-td:nth-child(2){
 	color: #2979ff ;
-	font-size: 25px;
-	padding-left: 10px;
+	
 	font-family: 'Ubuntu', sans-serif;
+
+}
+
+
+#h_rule{
+	width: 100%;
+	height: 5px;
+	background-color: white;
+	margin-top: 5cm;
 
 }
 
 
 
 
+#btm-pane{
+	background-color:;
+	height: 8cm;
+	text-align: center;	
 
 
+}
 
+#date_pick_container{
+
+	width: 45%; 
+}
+
+
+#date_pick_container #heading{
+	font-family: 'Lobster', cursive;
+	font-size: 45px;
+	text-decoration: underline;
+	color: #ff1744 ;
+}
+
+
+#left, #right{
+	font-family: 'Ubuntu', sans-serif;
+
+	margin-top: 25px;
+	font-size: 20px;
+	width:5cm;
+	color: white;
+
+}
+
+#left, #right p{
+	text-align: center;
+	font-size: 25px;
+	font-weight: bolder;
+}
+
+
+#left{
+	position: relative;
+	left: ;
+	float: left;
+	
+}
+
+
+#right{
+
+	position: relative;
+	right: ;
+	float: right;
+	
+	
+}
+
+#button-send{
+	width: 5cm;
+
+}
 

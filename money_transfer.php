@@ -106,7 +106,7 @@ if (isset($_POST['submit'])) {
 <h1 >TRANSFER MONEY </h1>
 
  <!--===============  form for sending money ============================= -->	
- <div class="container">
+ <div class="container" id="outer_container">
  <form action="" method="post" id="form">
  	<label>account number:</label>
  	<input type="text" name="to_account"><br><br>
@@ -123,5 +123,11 @@ if (isset($_POST['submit'])) {
 
  </form>
  </div>
+
+ 				<div class="container" id="back-page">
+ 					<a href="my_home.php">Go To home</a>
+ 				</div>
+ 				
+
  </body>
  </html>

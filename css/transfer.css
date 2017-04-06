@@ -3,7 +3,7 @@ h1{
 	color: red;
 }
 
-.container{
+#outer_container{
 	
 	border: 2px solid grey;
 	text-align: center;
@@ -39,3 +39,12 @@ label{
 button{
 	color: red;
 }
+
+
+#back-page{
+
+	padding-top: 2cm;
+	text-align: center;
+	font-size: 35px;
+}
+

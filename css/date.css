@@ -7,7 +7,6 @@ body{
 	margin-bottom: 20px;
 	position: fixed;
 	z-index: 1;
-	opacity: 0.9;
 
 }
 
@@ -31,6 +30,10 @@ body{
 
 }
 
+
+#outer-container{
+
+}
 
 #left-pane{
 
@@ -81,16 +84,17 @@ body{
 
 #pin{
 	color: red;
-	margin-top: 2px;
-	-webkit-transform: rotate(45deg);
+	margin-top: -24px;
+	-webkit-transform: rotate(32deg);
 	position: relative;
-	left: 2cm;
+	left: 88px;
 	top: -15px;
 	-webkit-box-shadow: 0px 5px 10px -5px rgba(0,0,0,0.75);
 }
 
 #right-pane{
 	width: 100%;
+	min-height: 15cm;
 	height: auto;
 	background-color:#eceff1;
 
@@ -117,30 +121,54 @@ table{
 
 }
 
+th{
+	text-align: center;
+	font-size: 25px;
+	color: #d84315;
+}
+
 tr{
-	height: 90px;
+	height: 30px;
+	text-align: center;
 
 }
 
 
 
-td:nth-child(1){
+
+td{
+	text-align: center;
 	font-size: 25px;
-	padding-left: 10px;
-	font-family: 'Ubuntu', sans-serif;
-
-}
-
-
-td:nth-child(2){
 	color: #2979ff ;
-	font-size: 25px;
-	padding-left: 10px;
+	
 	font-family: 'Ubuntu', sans-serif;
 
 }
 
 
+.rec_found_text{
+	font-size: 25px;
+	text-align: center;
+	color: red;
+}
+
+
+
+#go_back{
+	position: relative;
+	left: 3cm;
+	bottom: 2cm;
+	padding:19px 12cm;
+}
+
+
+#h_rule{
+	width: 100%;
+	height: 5px;
+	background-color: white;
+	margin-top: 5cm;
+
+}
 
 
 
